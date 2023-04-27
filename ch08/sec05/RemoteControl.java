@@ -1,4 +1,4 @@
-package ch08.sec04;
+package ch08.sec05;
 
 public interface RemoteControl {
 	int MAX_VOLUME = 10;
@@ -13,7 +13,7 @@ public interface RemoteControl {
 			System.out.println("무음 처리합니다.");
 			setVolume(MIN_VOLUME);
 		}else {
-			System.out.println("무음 해제");
+			System.out.println("무음 해제합니다.");
 		}
 	}
 }
