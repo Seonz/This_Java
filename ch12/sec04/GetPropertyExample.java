@@ -22,7 +22,7 @@ public class GetPropertyExample {
 			String value = System.getProperty(key);
 			System.out.printf("%-40s: %s\n", key, value);
 		}
-		
+		 
 		
 	}
 
